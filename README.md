@@ -1,0 +1,4 @@
+ - Hi my name in the git is levi -br
+ - learning C#
+ - i make course ADS, college EDS and anoters curses 
+ - It's been almost a year since I started learning to program
