@@ -1,0 +1,36 @@
+Vou colocar alguns codigos que estou aprendendo aqui 
+Relogio de futebool 
+using System;
+using System.Runtime.Serialization;
+
+namespace EXe
+    {
+    public class Tentar
+        {
+        static void Main(string[] args) {
+            // leia a hora inicial do jogo  e a hora final do jogo 
+            // duração minima 1 e duração maxima 24 horas
+
+            string[] vet;
+            vet = Console.ReadLine().Split(' ');
+
+            int hora1 = int.Parse(vet[0]);
+            int hora2 = int.Parse(vet[1]);
+
+            int dia = 24;
+
+            if(hora1 >= 10 && hora2 <= 10) {
+                int horario = (24 - hora1) + hora2;
+                Console.WriteLine("O JOGO DUROU " + horario + " HORA(S)");
+                }
+            else if(hora1 < 10 && hora2 > 10) {
+                int menos = (hora2-hora1);
+               
+                Console.WriteLine("O JOGO DUROU " + menos + " HORA(S)");
+                }
+            else {
+                Console.WriteLine("O JOGO DUROU " + dia  + " HORA(S)");
+                }
+            }
+        }
+    }
