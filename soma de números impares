@@ -1,0 +1,32 @@
+using System;
+using System.Xml.Serialization;
+
+namespace Treino
+    {
+    internal class Program
+        {
+        static void Main(string[] args) {
+            int x, y,soma=0,diminuir;
+            x  =int.Parse(Console.ReadLine());
+            y =int.Parse(Console.ReadLine());
+            if(x % 2 != 0) {
+                diminuir = x - 2;
+                for(int i = diminuir; i > y; i -= 2) {
+                    soma += i;
+
+                    }
+                Console.WriteLine(soma);
+                }
+            else {
+                diminuir = x - 1;
+                for(int i = diminuir; i > y; i -= 2) {
+                    soma += i;
+
+                    }
+                Console.WriteLine(soma);
+
+            }
+
+            }
+        }
+    }
