@@ -1,0 +1,33 @@
+using System;
+using System.Xml.Serialization;
+
+namespace Treino
+    {
+    internal class Program
+        {
+        static void Main(string[] args) {
+            int n, x, y = 0, t = 0;
+            //valor inteiro que sera quantas vezes o x ira repetir
+            n = int.Parse(Console.ReadLine());
+            if(n < 10000) {
+                for(int i = 0; i < n; i++) {
+                    //o intervalo de x 
+                    x = int.Parse(Console.ReadLine());
+                    // entre a 10 a 20
+                    if(x >= 10 && x <= 20) {
+                        y++;
+                        }
+                    else if(x < 10 || x > 20) {
+                        //ou e um ou e outro 
+                        t++;
+                        }
+                    else if(x < 0 ) {
+                        t++;
+                        }
+                    }
+                    Console.WriteLine(y + " in\n" + t + " out");
+                }
+
+            }
+        }
+    }
