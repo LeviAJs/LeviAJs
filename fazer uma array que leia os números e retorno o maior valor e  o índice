@@ -1,0 +1,42 @@
+namespace Treino
+    {
+    internal class Program
+        {
+        static void Main(string[] args) {
+
+            // faça um programa que leia N e armazene em um vetor
+            // mostrar o maior numero (sem empate)
+            // mostar a posição também
+
+            int n, A = 0,id = 0;
+            int[] armaze;
+
+            n = int.Parse(Console.ReadLine());
+            armaze = new int[n];
+
+            string[] num = Console.ReadLine().Split(" ");
+
+            for(int i = 0; i < n; i++) {
+                armaze[i] = int.Parse(num[i]);
+                Console.Write(num[i] + " ");
+                }
+
+            for(int i = 0; i < armaze.Length; i++) {
+                 if(armaze[i] > A) {
+                    A = armaze[i];
+                    }
+                }
+
+            for(int i = 0; i < armaze.Length; i++) {
+                if(armaze[i] == A) {
+                    id = i;
+                   
+                    }
+                }
+                    
+                     Console.WriteLine("\n"+A+"\n"+id);
+                
+
+            }
+        }
+    }
