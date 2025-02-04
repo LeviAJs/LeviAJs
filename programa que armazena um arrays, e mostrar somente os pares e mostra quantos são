@@ -1,0 +1,30 @@
+namespace Treino
+    {
+    internal class Program
+        {
+        static void Main(string[] args) {
+
+            // faça um programa que leia N e armazene em um vetor
+            //mostrar na tela os pares e quantidade de pares
+
+            int n, a = 0;
+            n = int.Parse(Console.ReadLine());
+            int[] pares = new int[n];
+
+            string[] num = Console.ReadLine().Split(" ");
+
+            for(int i = 0; i < n; i++) {
+                pares[i] = int.Parse(num[i]);
+                if(pares[i] % 2 == 0) {
+                    Console.Write(pares[i]+" ");
+                    }
+                }
+            for(int i = 0; i < n; i++) {
+                if(pares[i] % 2 == 0) {
+                    a += 1;
+                    }
+                }
+            Console.WriteLine("\n"+a);
+            }
+        }
+    }
