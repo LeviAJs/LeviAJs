@@ -1,0 +1,43 @@
+namespace Treino
+    {
+    internal class Program
+        {
+        static void Main(string[] args) {
+
+
+            // faça um programa para ler os numeros N reais
+            // mostrar a media aritimetrica de todos os elementos 
+            // e mostrar qual esta abaixo da media 
+
+
+            // pegar os numeros e guardar
+            int N;
+            double media=0, total;
+            N = int.Parse(Console.ReadLine());
+            double[] vet = new double[N];
+
+            string[] numero = Console.ReadLine().Split(" ");
+            
+           
+            for(int i = 0; i < N; i++) {
+                vet[i] = double.Parse(numero[i]); // trasformar os numero em double
+                }
+           
+            for(int i = 0; i < N; i++) { // tirando a media dos valores
+                media += vet[i];
+                 }
+           
+            total = media / N; // tirando a razão da media
+
+            Console.WriteLine(total);// valores da media/total
+            
+            for(int i = 0; i < N; i++){
+                if(total > vet[i]) {// ver qual numero e menor que a media total
+                    Console.Write(vet[i]+"\n");
+                    }
+                }    
+              
+                
+            }
+        }
+    }
