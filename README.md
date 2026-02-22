@@ -13,8 +13,7 @@
 
 ## 📌 Projetos em destaque
 
-#### 🔹 Sistema de Cadastro de Usuários (CRUD em C#)  
-#### 👉 https://github.com/LeviAJs/Cadastro-de-Usuario
 #### 🔹 Sistema de Cadastro de Funcionário (CRUD em C#)
-#### 👉 https://github.com/LeviAJs/crud-funcionarios-csharp
+Aplicação em console estruturada em camadas (Model e Repository) com operações de cadastro, listagem, atualização e remoção.
+##### 👉 https://github.com/LeviAJs/crud-funcionarios-csharp
 ---
