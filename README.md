@@ -1,4 +1,19 @@
- - Hi my name in the git is levi -br
- - learning C#
- - i make course ADS, college EDS and anoters curses 
- - It's been almost a year since I started learning to program
+# Olá, eu sou Alcides 👋
+
+🎓 Estudante de Engenharia de Software  
+💻 Focado em desenvolvimento back-end com C# e .NET  
+📚 Atualmente estudando estrutura de dados e APIs  
+
+## 🚀 Tecnologias
+
+- C#
+- .NET
+- Programação Orientada a Objetos
+- Git e GitHub
+
+## 📌 Projetos em destaque
+
+🔹 Sistema de Cadastro de Usuários (CRUD em C#)  
+👉 https://github.com/LeviAJs/Cadastro-de-Usuario
+
+---
